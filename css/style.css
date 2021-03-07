@@ -1,0 +1,41 @@
+/* the first approach */
+
+ul {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*   border: 2px dashed rgb(255, 0, 0); */
+
+li {
+  width: 90px;
+  height: 90px;
+  font-size: 80px;
+  font-family: sans-serif;
+  background-color: lightblue;
+  margin: 5px;
+  list-style-type: none;
+  text-align: center;
+}
+
+/* the second approach */
+
+/* ul {
+  width: 300px;
+  height: 300px;
+}
+
+li {
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+  float: left;
+  list-style-type: none;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: lightblue;
+}
+ */
